@@ -1,0 +1,12 @@
+{
+    "discord":{
+        "url":"https://discordapp.com/api/webhooks/yourwebhookhere"
+    },
+    "telegram":{
+        "api_id":9999999,
+        "api_hash":"000000000000000000",
+        "phone":"+00000000000000",
+        "wait":300,
+        "channel_ids":[9999999,9999999,99999999]
+    }
+}

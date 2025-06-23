@@ -32,7 +32,7 @@ async def main():
                     if last_messages[dialog.id] != dialog.message.text:
                         print("Forwarding new message from:",dialog.id)
                         await send_webhook(dialog.message,dialog)
-                        last_messages[dialog.id] = dialog.message
+                        last_messages[dialog.id] = dialog.message.text
                 else:
                     print("Forwarding new message from:",dialog.id)
                     print(dialog.message.id)
